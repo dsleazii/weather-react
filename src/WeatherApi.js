@@ -1,5 +1,6 @@
-import React {useState} from "react";
+import React, {useState} from "react";
 import { Axios } from "axios";
+
 
 export default function WeatherApi() {
     const [city, setCity] = useState("");
